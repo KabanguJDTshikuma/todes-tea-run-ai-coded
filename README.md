@@ -1,17 +1,43 @@
-# Build a Game with an AI Coding Agent
-[![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-<a href="https://www.coursera.org/learn/jb-build-game-with-ai-agent/" target="_blank">
-<img src="https://img.shields.io/badge/Coursera-0056D2?style=for-the-badge&logo=Coursera&logoColor=white&style=flat" alt="Course%20catalog"></a>
-<a href="https://plugins.jetbrains.com/plugin/30327-build-a-game-with-ai-coding-agent/versions" target="_blank">
-<img src="https://img.shields.io/badge/dynamic/yaml?query=%24.course_version&url=https://raw.githubusercontent.com/jetbrains-academy/game-course/refs/heads/main/course-remote-info.yaml&logo=jetbrains&logoColor=FC801D&label=Marketplace&color=6b59fe&style=flat&prefix=v" alt="Marketplace"></a>
+# Tode's Tea Run
 
-Build a 3D browser game step by step – with the help of an AI coding agent.
+A 3D browser game built with [Three.js](https://threejs.org/) and an AI coding agent.
+Help Tode the Frog survive waves of enemies and bosses on an endless meadow: hop
+around houses, croak enemies away, and brew golden tea for bonus points.
 
-In this project-based course, you'll plan, build, and polish a complete game inside IDE, using AI coding agents to turn ideas into working code. Follow the story of Tode the Frog, or customize the visuals and make the game your own. No grades – just hands-on building and your creativity.
+**Play online:** https://kabangujdtshikuma.github.io/todes-tea-run-ai-coded/
 
-## Want to know more?
-If you have questions about the course or the tasks, or if you find any errors, feel free to ask questions and participate 
-in discussions within the repository [issues](https://github.com/jetbrains-academy/game-course/issues).
+## Quick start
 
-## Contribution
-Please be sure to review the [project's contributing guidelines](https://github.com/jetbrains-academy/.github/blob/main/contributing_guidelines.md) to learn how to help the project.
+Requires [Node.js](https://nodejs.org/) 20.19 or newer.
+
+```bash
+cd game
+npm install
+npm run dev
+```
+
+Then open the local URL Vite prints (usually http://localhost:5173).
+
+## Documentation
+
+The full game documentation is in [game/README.md](game/README.md):
+
+- features and controls
+- build and run instructions
+- project structure
+- third-party assets, with their sources and licenses
+- which AI tools were used, and for which parts
+
+## Repository layout
+
+| Path | Contents |
+| --- | --- |
+| `game/` | The game itself (source, assets, build config) |
+| `Introduction/`, `Skeleton/`, `Core_loop/`, `Visual/`, `Conclusion/` | Original course task files |
+| `LICENSE` | MIT license, including the original JetBrains Academy copyright notice |
+
+## Attribution
+
+Based on the course *Build a Game with an AI Coding Agent* by
+[JetBrains Academy](https://github.com/jetbrains-academy/game-course), released under
+the MIT License. See [LICENSE](LICENSE).

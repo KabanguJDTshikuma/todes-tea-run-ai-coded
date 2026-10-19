@@ -85,14 +85,35 @@ Gameplay tuning values (health, speeds, cooldowns, scoring) live in `GAME_CONFIG
 in `src/components/Difficulty.js`. See `src/components/readme.md` for detailed
 behaviour notes on every system.
 
-## Credits
+## Attribution
 
-- Game code written with the help of an AI coding agent, following the
-  [JetBrains Academy game course](https://github.com/jetbrains-academy/game-course).
-- **Small House** model by Jarlan Perez, licensed under
-  [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), via
-  [Poly Pizza](https://poly.pizza/m/053kskrV4U_).
-- Built with [Three.js](https://threejs.org/) and [Vite](https://vite.dev/).
+This project is based on the course *Build a Game with an AI Coding Agent* by
+[JetBrains Academy](https://github.com/jetbrains-academy/game-course), released under
+the MIT License (Copyright (c) 2025 JetBrains Academy). The original copyright and
+permission notice is kept in [LICENSE](../LICENSE).
+
+## Third-party assets
+
+| Asset | Source | License |
+| --- | --- | --- |
+| Tode the Frog model (`public/models/tode.glb`) and icon (`public/tode.svg`) | [JetBrains Academy game course](https://github.com/jetbrains-academy/game-course) | MIT |
+| Enemy model (`public/models/enemy.glb`) | [JetBrains Academy game course](https://github.com/jetbrains-academy/game-course) | MIT |
+| Small House model (`public/models/small_house.glb`) by Jarlan Perez | [Poly Pizza](https://poly.pizza/m/053kskrV4U_) | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) |
+| [Three.js](https://threejs.org/) (3D engine) | npm package `three` | MIT |
+| [Vite](https://vite.dev/) (build tool) | npm package `vite` | MIT |
+
+All sound effects are generated in code with the Web Audio API; the game uses no
+audio files, music, or recordings.
+
+## AI tools used
+
+| Tool | Used for |
+| --- | --- |
+| **Junie** (JetBrains) | Following the course tasks: the game skeleton, core loop, visuals, and the extension plan (waves and bosses, enemy types, power-ups, Tea Run, Super Croak, minimap, settings, touch controls). |
+| **Claude Code** (Anthropic) | Reviewing the project and polishing it: blue sky with drifting clouds, endless meadow with a soft boundary, screen shake and hit-stop, contact knockback, central config cleanup, layout fixes, this README, the GitHub Pages deployment, and the gameplay video. |
+| **GitHub Copilot** | Inline code completions while editing. |
+
+All AI-generated code was reviewed, tested by playing the game, and directed by the author.
 
 ## License
 
