@@ -6,6 +6,8 @@ around houses, croak enemies away, and brew golden tea for bonus points.
 
 **Play online:** https://kabangujdtshikuma.github.io/todes-tea-run-ai-coded/
 
+![Tode's Tea Run gameplay](game/media/todes-tea-run-gameplay.gif)
+
 ## Quick start
 
 Requires [Node.js](https://nodejs.org/) 20.19 or newer.

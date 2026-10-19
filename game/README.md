@@ -7,6 +7,8 @@ and brew golden tea for bonus points.
 Built step by step with an AI coding agent as part of the JetBrains Academy course
 *Build a Game with an AI Coding Agent*.
 
+![Tode's Tea Run gameplay](media/todes-tea-run-gameplay.gif)
+
 ## Features
 
 - **Wave-based combat.** Each wave brings more enemies; clearing one awards bonus points.
